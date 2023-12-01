@@ -24,7 +24,7 @@ const Hero = () => (
           and Google Suite. Feel free to reach out at the links below or contact 
           me at:{' '}
           <a className="text-cyan-400">
-          &lbrack;first_name&rbrack;@&lbrack;last_name.org&rbrack;
+          |first_name|@|last_name|.org
           </a>{' '}
         </>
       }
