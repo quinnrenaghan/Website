@@ -20,11 +20,11 @@ const Hero = () => (
             Computer Engineering
           </a>{' '}
           and sustainability. I have an interest in software engineering, math, 
-          and renewable energy. I'm skilled in data analysis, Python, Java, MATLAB, 
-          and Google Suite. Feel free to reach out at the links below or contact 
-          me at:{' '}
+          and renewable energy. I'm skilled in Python, Java, MATLAB, digital/analog circuitry,
+          data analysis, embedded systems, and Google Suite. Feel free to reach out at the links 
+          below or contact me at:{' '}
           <a className="text-cyan-400">
-          |first_name|@|last_name|.org
+          [first_name]@[last_name].org
           </a>{' '}
         </>
       }

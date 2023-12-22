@@ -17,7 +17,7 @@ const ProjectList = () => (
     <div className="flex flex-col gap-6">
       <Project
         name="Personal Website"
-        description="I designed this website using Astro.js, with react and CSS. It is deployed on AWS,
+        description="I designed this website using Astro.js, with react and CSS. It is deployed on Netlify,
         and serves as a place where I can share my projects."
         link="/"
         img={{
@@ -51,7 +51,7 @@ const ProjectList = () => (
       />
       <Project
         name="Climate Activist Data Analysis"
-        description="Over the last year, I've helped to collect hundreds of survey samples
+        description="Over the last year, I've helped to analyze hundreds of survey samples
         from climate activists at various marches, rallies, and demonstrations. In this article,
         Dr. Fisher and I present our findings."
         link="https://www.brookings.edu/articles/understanding-the-growing-radical-flank-of-the-climate-movement-as-the-world-burns/"
