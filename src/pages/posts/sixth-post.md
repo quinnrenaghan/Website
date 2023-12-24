@@ -61,7 +61,7 @@ In general, Eclipse feels bloated, unstable, and fragile.
 ---
 ## 4. Everything is a Plug-in
 
-Eclipse is pratically a plug-in delivery system. Almost everything is a plug-in: the text rendering, the menus, themes, linting, etc. 
+Eclipse is practically a plug-in delivery system. Almost everything is a plug-in: the text rendering, the menus, themes, linting, etc. 
 
 It’s like building a bike out of legos, it might be great that all of the pieces are interchangable and easy to swap in and out, but the end result is inefficient because none of the pieces perform their job as well as a specially designed part.
 
