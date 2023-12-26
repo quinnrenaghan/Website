@@ -21,9 +21,9 @@ I have used [Eclipse](https://eclipseide.org) for almost 2 years now. Everytime 
 
 The Eclipse UI looks and feels like it was made in the stone-age. Aside from its archaic appearance, it freezes constantly, shows misleading status messages, and is difficult to navigate.
 
-I’ll never understand why the settings and controls in Eclipse are arranged the way they are. If you look in the intuitive place for an option, you won’t find it, because it’s buried under three or four drop-downs in a completely unrelated part of the menu.  
+I’ll never understand why the settings and controls in Eclipse are arranged the way they are. If you look in the intuitive place for an option, you won’t find it, because it’s buried under three or four drop-downs in a completely unrelated part of the menu. This is user-hostile design.
 
-- "Install new software" at the bottom of the "Help" menu? This is user-hostile design!
+- "Install new software" at the bottom of the "Help" menu? Brilliant!
 
 - Want to change from dark theme to light theme? That'll take 30 minutes, 10 google searches, and 3 Eclipse restarts.
 
