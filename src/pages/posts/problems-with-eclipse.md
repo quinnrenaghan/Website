@@ -15,15 +15,15 @@ imgAlt: 'Image post'
   }
 </style>
 
-I have used Eclipse for almost 2 years now. Everytime I use it, it disappoints me in some major way. Here are some of the biggest problems with Eclipse:
+I have used [Eclipse](https://eclipseide.org) for almost 2 years now. Everytime I use it, it disappoints me in some major way. Here are some of the biggest problems I have had:
 
 ## 1. The UI
 
-The Eclipse UI looks and feels like it was made in the stone-age. Aside from its poor appearance, it freezes constantly, shows incorrect status messages, and is impossible to navigate.
+The Eclipse UI looks and feels like it was made in the stone-age. Aside from its archaic appearance, it freezes constantly, shows misleading status messages, and is difficult to navigate.
 
 I’ll never understand why the settings and controls in Eclipse are arranged the way they are. If you look in the intuitive place for an option, you won’t find it, because it’s buried under three or four drop-downs in a completely unrelated part of the menu.  
 
-- "Install new software" at the bottom of the "Help" menu? Brilliant GUI design!
+- "Install new software" at the bottom of the "Help" menu? This is user-hostile design!
 
 - Want to change from dark theme to light theme? That'll take 30 minutes, 10 google searches, and 3 Eclipse restarts.
 
@@ -31,7 +31,7 @@ I’ll never understand why the settings and controls in Eclipse are arranged th
 
 ## 2. The Auto-Complete
 
-The Eclipse autocomplete is consistently slow, sometimes stupid, and often completely non-existent. It’s always faster to just type out the code rather than waiting for Eclipse to catch up. 
+The Eclipse auto-complete is consistently slow, sometimes stupid, and often completely non-existent. It’s always faster to just type out the code rather than waiting for Eclipse to catch up. 
 
 Also, it has a habit of stealing focus (a common issue in Eclipse).
 
@@ -41,7 +41,7 @@ bar.
 ```
 Still waiting...
 
-Other tools, like IntelliJ, have fast, smart, and reliable code feedback features, which can save you considerable time. These features are better at predicting and completing lines, recognizing and solving problems, and formatting on the fly. 
+Other tools, like [IntelliJ IDEA](https://www.jetbrains.com/idea/), have fast, smart, and reliable code feedback features, which can save you considerable time. These features are better at predicting and completing lines, recognizing and solving problems, and formatting on the fly. 
 
 ---
 ## 3. The Slow Speed, Crashing and Hanging
@@ -50,7 +50,7 @@ In general, Eclipse feels bloated, unstable, and fragile.
 
 - Every click seems delayed, like you're playing an online video game with high ping
 
-- The programs regularly crashes due to internal errors
+- The program regularly crashes due to internal errors
 
 - Opening projects, especially large ones, can take minutes
 
@@ -77,4 +77,4 @@ With enough configuration and plugins, Eclipse can become nearly equivalent to o
 
 ---
 
-In summary, if you aren't forced to use Eclipse by your employer or university, don't. This small decision will save you hours, valuable time that could be spent working on a project. Use IntelliJ, NetBeans, VS Code - anything else.
+In summary, if you aren't forced to use Eclipse by your employer or university, don't. This small decision will save you hours, valuable time that could be spent working on a project. Use [VS Code](https://code.visualstudio.com), IntelliJ, anything else.
