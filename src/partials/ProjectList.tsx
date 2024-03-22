@@ -15,6 +15,21 @@ const ProjectList = () => (
     }
   >
     <div className="flex flex-col gap-6">
+    <Project
+        name="Innovative Design - Rhythm Radiance Lightbulb"
+        description="I created Rhythm Radiance, an original automatically
+        adjusting lightbulb, which increases productivity and saves energy. The team
+        used design thinking, prototyping, teamwork, C++, arduino, and circuitry."
+        link="/rhythmradiance/"
+        img={{ src: '/assets/images/lightbulb.png', alt: 'Lightbulb' }}
+        category={
+          <>
+            <Tags color={ColorTags.AMBER}>C++</Tags>
+            <Tags color={ColorTags.SLATE}>Arduino</Tags>
+            <Tags color={ColorTags.GREEN}>Analog Circuitry</Tags>
+          </>
+        }
+      />
       <Project
         name="Personal Website"
         description="I designed this website using Astro.js, with react and CSS. It is deployed on Netlify,
