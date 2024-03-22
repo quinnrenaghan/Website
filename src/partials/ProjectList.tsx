@@ -18,8 +18,9 @@ const ProjectList = () => (
     <Project
         name="Innovative Design - Rhythm Radiance Lightbulb"
         description="I created Rhythm Radiance, an original automatically
-        adjusting lightbulb, which increases productivity and saves energy. The team
-        used design thinking, prototyping, teamwork, C++, arduino, and circuitry."
+        adjusting lightbulb, which increases productivity and saves energy. I
+        utilized skills including design thinking, prototyping, teamwork, 
+        C++, arduino, and circuitry."
         link="/rhythmradiance/"
         img={{ src: '/assets/images/lightbulb.png', alt: 'Lightbulb' }}
         category={
