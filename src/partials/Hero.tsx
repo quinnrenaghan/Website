@@ -15,11 +15,11 @@ const Hero = () => (
       }
       description={
         <> 
-          I'm an undergraduate student at the Univeristy of Maryland, College Park, studying{' '}
+          I'm an undergraduate student at the University of Maryland, College Park, studying{' '}
           <a className="text-cyan-400">
             Computer Engineering
           </a>{' '}
-          and sustainability. I have an interest in software engineering, math, 
+          and sustainability. I have interests in software engineering, math, 
           and renewable energy. I'm skilled in Python, Java, MATLAB, digital/analog circuitry,
           data analysis, embedded systems, and Google Suite. Feel free to reach out at the links 
           below or contact me at:{' '}
