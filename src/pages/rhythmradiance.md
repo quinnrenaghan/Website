@@ -27,4 +27,4 @@ With our improved idea, we created a final working prototype, shown below, and c
 
 _The prototype utilizes an Arduino Uno, 4 different colored LEDs, photocells, buttons, resistors, and code written in C++. When the photocell detected more natural light, the Arduino uses pulse-width modulation (PWM) to decrease the power sent to the LEDs. Throughout the day, the ratio of LED color changes according to the user's circadian rhythm, with warm colors at night, and cool colors during peak hours of the day._
 
-Finally, to pitch our product to potential investors, we prepared a presentation and technical paper. Feel free to reach out to my email for any additional information!
+Finally, to pitch our product to potential investors, we prepared a presentation and technical paper. Looking forward, we aim to apply for grants to continue development and begin production. Feel free to reach out to my email for additional information!
