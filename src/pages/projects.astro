@@ -1,0 +1,27 @@
+---
+import {
+  PaginationHeader,
+  Section,
+} from 'astro-boilerplate-components';
+
+import Base from '@/templates/Base.astro';
+import { FullProjectList } from '@/partials/FullProjectList';
+
+const title = 'Project Page';
+const description =
+  'Project Archive Page';
+---
+<style is:global>
+  * {
+    font-family: monospace;
+  }
+</style>
+<Base head={{ title, description }}>
+  <Section>
+    <PaginationHeader
+      title='Project Archive'
+      description=''
+    />
+  </Section>
+  <FullProjectList />
+</Base>
