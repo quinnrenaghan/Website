@@ -4,12 +4,9 @@ title: The Issues with Coding on Eclipse
 description: Quinn Renaghan
 pubDate: 2023-12-21T00:00:00Z
 imgSrc: '/assets/images/eclipse.png'
-imgAlt: 'Image post'
+imgAlt: 'Eclipse Logo'
 ---
 <style is:global>
-  nav {
-    font-size: 1.3rem;
-  }
   :root {
     font-family: monospace;
   }

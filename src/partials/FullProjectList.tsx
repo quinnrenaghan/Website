@@ -17,6 +17,20 @@ const FullProjectList = () => (
   }>
     <div className="flex flex-col gap-6">
     <Project
+        name="Consulting - Radiation Facilities Detector Tracking"
+        description="I consulted with UMD Radiation Facilities to improve their radiation
+        detector tracking process. The recommendations will eliminate losing or misplacing detectors, 
+        saving the department approximately $6,000 annually."
+        link="/radiationfacilities/"
+        img={{ src: '/assets/images/radiation.png', alt: 'Radiation' }}
+        category={
+          <>
+            <Tags color={ColorTags.BLUE}>Consulting</Tags>
+            <Tags color={ColorTags.PINK}>Data Analysis</Tags>
+          </>
+        }
+      />
+    <Project
         name="Innovative Design - Rhythm Radiance Lightbulb"
         description="I created Rhythm Radiance, an original automatically
         adjusting lightbulb, which increases productivity and saves energy. I

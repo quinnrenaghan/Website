@@ -4,12 +4,9 @@ title: Innovative Design - Rhythm Radiance
 description: Quinn Renaghan
 pubDate: 2024-03-22T00:00:00Z
 imgSrc: '/assets/images/stock_bulb.png'
-imgAlt: 'Image post'
+imgAlt: 'Light Bulb'
 ---
 <style is:global>
-  nav {
-    font-size: 1.3rem;
-  }
   :root {
     font-family: monospace;
   }
@@ -23,7 +20,7 @@ Next, we created a low-res prototype and conducted a preliminary testing session
 
 With our improved idea, we created a final working prototype, shown below, and completed market, technical, financial, and impact analyses, delegating the tasks according to individual strengths within the team. Thus, I primarily worked on the technical feasibility and design of the product. 
 
-<img class="h-full w-full rounded-lg object-cover object-center" src="/assets/images/prototype.png" alt="Image post" loading="lazy">
+<img class="h-full w-full rounded-lg object-cover object-center" src="/assets/images/prototype.png" alt="Prototype" loading="lazy">
 
 _The prototype utilizes an Arduino Uno, 4 different colored LEDs, photocells, buttons, resistors, and code written in C++. When the photocell detected more natural light, the Arduino uses pulse-width modulation (PWM) to decrease the power sent to the LEDs. Throughout the day, the ratio of LED color changes according to the user's circadian rhythm, with warm colors at night, and cool colors during peak hours of the day._
 

@@ -26,7 +26,7 @@ const ProjectList = () => (
         description="I consulted with UMD Radiation Facilities to improve their radiation
         detector tracking process. The recommendations will eliminate losing or misplacing detectors, 
         saving the department approximately $6,000 annually."
-        link="/rhythmradiance/"
+        link="/radiationfacilities/"
         img={{ src: '/assets/images/radiation.png', alt: 'Radiation' }}
         category={
           <>
