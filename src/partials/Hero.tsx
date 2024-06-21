@@ -19,9 +19,9 @@ const Hero = () => (
           <a className="text-cyan-400">
             Computer Engineering
           </a>{' '}
-          and sustainability. I have interests in hardware engineering, math, 
-          and renewable energy. I'm skilled in C, Java, MATLAB, digital/analog circuitry,
-          data analysis, embedded systems, and Python. Feel free to reach out at the links 
+          and sustainability. I have interests in hardware engineering, particularly consumer electronics, 
+          and renewable energy. I'm skilled in C, Java, digital logic, electronic circuits,
+          embedded systems, and Python. Feel free to reach out at the links 
           below or contact me at:{' '}
           <a className="text-cyan-400">
           [first_name]@[last_name].org
