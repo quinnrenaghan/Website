@@ -17,6 +17,19 @@ const FullProjectList = () => (
   }>
     <div className="flex flex-col gap-6">
     <Project
+        name="Tree-Walking Interpreter"
+        description="I wrote a tree-walking interpreter in C, which can analyze and evaluate proagrams written in
+        a custom programming language. It includes support for features including booleans, integers, strings, functions,
+        conditional expressions, and more."
+        link="https://github.com/quinnrenaghan/simple_tree_walking_interpreter_c"
+        img={{ src: '/assets/images/interpreter.png', alt: 'Interpreter' }}
+        category={
+          <>
+            <Tags color={ColorTags.EMERALD}>C</Tags>
+          </>
+        }
+    />
+    <Project
         name="Settlers of Catan Board Generator"
         description="I used Python to create a program that generates and evaluates Settlers of Catan board set-ups.
         By grading each board on 7 metrics describing fairness and balance, the program gives the user a board
