@@ -43,7 +43,7 @@ const ProjectsGrid = () => {
     const projects = [
     {
         name: "Personal Website",
-        description: "This portfolio website was built by using modern web technologies to create a clean and minimalist design. It is deployed on Netlify.",
+        description: "I built this portfolio website with Astro, JS, React, and Tailwind. It is deployed on Netlify.",
         technologies: [
             { name: "Astro", bgColor: "bg-purple-100", textColor: "text-purple-900" },
             { name: "React", bgColor: "bg-red-100", textColor: "text-red-900" },
