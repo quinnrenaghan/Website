@@ -60,7 +60,7 @@ const ProjectsGrid = () => {
             { name: "Tailwind", bgColor: "bg-cyan-100", textColor: "text-cyan-900" },
             { name: "Javascript", bgColor: "bg-lime-100", textColor: "text-lime-900" }
         ],
-        link: "/",
+        link: "https://github.com/quinnrenaghan/astro-personal-site",
         imageUrl: "/website.png"
     },
     {
