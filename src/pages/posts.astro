@@ -6,7 +6,7 @@ const sortedPosts = posts.sort((a, b) => new Date(b.frontmatter.date).getTime() 
 ---
 
 <Layout>
-    <main class="max-w-6xl mx-auto p-12">
+    <main class="max-w-6xl mx-auto p-6">
         <h1 class="text-4xl font-medium text-rose-800 mb-6 text-center">Posts</h1>
         <ul class="space-y-4">
             {sortedPosts.map((post) => (
