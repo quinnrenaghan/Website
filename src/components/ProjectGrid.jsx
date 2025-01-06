@@ -2,42 +2,52 @@ import React from 'react';
 import { ExternalLink } from 'lucide-react';
 
 const ProjectCard = ({ project }) => {
-return (
-    <a 
-        href={project.link}
-        className="block bg-paper border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
-    >
-    <div className="h-48 border-b">
-        <img 
-            src={project.imageUrl} 
-            alt={project.name}
-            className="w-full h-full object-cover"
-        />
-    </div>
-    
-    <div className="p-4 h-1/2 flex flex-col">
-        <div className="flex items-center justify-between mb-2">
-            <h3 className="break-words text-lg font-medium text-rose-800 truncate">
-            {project.name}
-        </h3>
-            <ExternalLink className="w-4 h-4 text-black flex-shrink-0" />
-        </div>
-        
-        <p className="text-gray-600 text-sm overflow-scroll mb-1">
-            {project.description}
-        </p>
-        
-        <div className="mt-auto flex flex-wrap gap-2">
-            {project.technologies.map((tech, index) => (
-                <span key={index} className={`px-2 py-1 text-sm rounded ${tech.bgColor} ${tech.textColor || 'text-black'}`} >
-                    {tech.name}
-                </span>
-            ))}
-        </div>
-    </div>
-    </a>
-);
+    return (
+        <a 
+            href={project.link}
+            className="block bg-paper border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow h-full flex flex-col"
+        >
+            <div className="w-full">
+                <img 
+                    src={project.imageUrl} 
+                    alt={project.name}
+                    className="w-full object-contain"
+                />
+            </div>
+            
+            <div className="p-4 flex flex-col flex-1">
+                <div>
+                    <div className="flex items-center justify-between mb-2">
+                        <h3 className="text-lg font-medium text-rose-800 break-words">
+                            {project.name}
+                        </h3>
+                        <ExternalLink className="w-4 h-4 text-black flex-shrink-0" />
+                    </div>
+                    
+                    <p className="text-gray-600 text-sm mb-4">
+                        {project.description}
+                    </p>
+                </div>
+                
+                <div className="mt-auto">
+                    <div className="flex flex-wrap gap-2">
+                        {project.technologies.map((tech, index) => (
+                            <span 
+                                key={index} 
+                                className={`px-2 py-1 text-sm rounded ${tech.bgColor} ${tech.textColor || 'text-black'}`}
+                            >
+                                {tech.name}
+                            </span>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </a>
+    );
 };
+
+
+
 
 const ProjectsGrid = () => {
     const projects = [
