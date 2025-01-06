@@ -1,0 +1,39 @@
+<style>
+    @import '../styles/navbar.css';
+</style>
+  
+<nav class="navbar">
+    <button class="navbar-toggle" id="navbarToggle">
+      ☰
+    </button>
+    <ul class="navbar-links" id="navbarLinks">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/posts">Posts</a></li>
+    </ul>
+  </nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const navbarToggle = document.getElementById("navbarToggle");
+  const navbarLinks = document.getElementById("navbarLinks");
+  
+  if (navbarToggle && navbarLinks) {
+    // Toggle menu when hamburger is clicked
+    navbarToggle.addEventListener("click", (e) => {
+      e.stopPropagation(); // Prevent click from immediately closing menu
+      navbarLinks.classList.toggle("active");
+      navbarToggle.classList.toggle("active");
+    });
+
+    // Close menu when clicking anywhere on the document
+    document.addEventListener("click", (e) => {
+      if (!navbarLinks.contains(e.target as Node) && !navbarToggle.contains(e.target as Node)) {
+        navbarLinks.classList.remove("active");
+        navbarToggle.classList.remove("active");
+      }
+    });
+  }
+});
+</script>

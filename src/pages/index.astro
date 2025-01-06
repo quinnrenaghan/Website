@@ -1,0 +1,9 @@
+---
+import Greeting from '../components/Greeting.jsx';
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout>
+	<Greeting client:only="svelte"/>
+</Layout>
